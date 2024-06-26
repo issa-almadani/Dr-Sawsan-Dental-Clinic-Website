@@ -10,3 +10,14 @@ The various goals of this project include:
 - creating an appointment management system to potentially expanding to create a database for appointments, clients, and webpage users.
 
 The project is currently in progress as of Summer 2024. 
+
+## How to view web application
+
+Please note that the application is currently under development and is not deployed yet as a webpage.
+
+This repository can be cloned, and the webpage can be run by following the steps underneath the Readme inside the project folder.
+
+Run:
+1. `pnpm i`
+2. `pnpm dev`
+3. open `localhost:3000`
