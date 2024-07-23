@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Logo from "./components/navigation/navbar/Logo"
 
 export default function Home() {
   return (

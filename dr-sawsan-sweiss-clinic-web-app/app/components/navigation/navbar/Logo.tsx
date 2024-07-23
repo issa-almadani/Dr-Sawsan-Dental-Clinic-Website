@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-// import Button from "./Button";
 
 const Logo = () => {
   const [width, setWidth] = useState(0);
@@ -17,11 +16,14 @@ const Logo = () => {
     updateWidth();
   }, []);
 
+  const ratio = 2.916
+  const w = 220
+
   return (
     <>
         <Link href="/" style={{display:"block"}}>
-            <Image src="/images/logo.png" alt="Logo" width={width < 1024 ? "150" : "250"}
-                height={width < 1024 ? "45" : "74"} className="relative" />
+            <Image src="/images/logo.png" alt="Logo" width={width < 0 ? "150" : w}
+                height={width < 1024 ? "250" : w / ratio} className="relative" />
         </Link>
     </>
   );
