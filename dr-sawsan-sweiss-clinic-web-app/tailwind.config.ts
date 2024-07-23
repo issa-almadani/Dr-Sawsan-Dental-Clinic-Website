@@ -38,6 +38,9 @@ const config: Config = {
         link_secondary: '#415107',
         link_alternate: '#415107',
       },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [],
