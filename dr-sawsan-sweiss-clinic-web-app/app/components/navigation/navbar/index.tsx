@@ -36,29 +36,46 @@ const Navbar = () => {
         </div>
 
         {/* Right Expanding Content */}
-        <div className={`absolute top-0 right-0 bg-bg_primary transition-all duration-500 ease-in-out ${isExpanded ? 'w-[40vw]' : 'w-0'} h-full`}>
-          <ul className={`flex flex-col ml-14 justify-center h-full font-roboto text-base text-link_primary font-bold text-5xl space-y-10 ${isExpanded ? 'opacity-100 duration-1000' : 'opacity-0 duration-200'}`}>
-            <li>Featured from Blog</li>
+        <div className={`absolute top-0 right-0 bg-bg_primary transition-transform duration-500 ease-in-out ${isExpanded ? 'translate-x-0' : 'translate-x-full'} h-full w-[40vw]`}>
+          <div className={`flex flex-col justify-center h-full font-roboto text-base text-link_primary font-bold text-5xl space-y-10 ${isExpanded ? 'opacity-100 duration-1000' : 'opacity-0 duration-200'}`}>
+            <ul className="ml-14 space-y-10">
+              <li>Featured from Blog</li>
 
-            <li>
-              <Image src="/images/placeholder.png" alt="placeholder" width={250} height={250} className="relative" />
-            </li>
+              <li>
+                <Image src="/images/placeholder.png" alt="placeholder" width={250} height={250} className="relative" />
+              </li>
 
-            <li>
-              <Image src="/images/placeholder.png" alt="placeholder" width={250} height={250} className="relative" />
-            </li>
+              <li>
+                <Image src="/images/placeholder.png" alt="placeholder" width={250} height={250} className="relative" />
+              </li>
 
-            <li>
-              <Link href="/gallery" className= "inline-flex group">
-                <span className="flex items-center transition-transform duration-300 transform group-hover:translate-x-2">
-                  See Gallery
-                  <ChevronRightIcon className="h-5 stroke-current ml-1 transition-transform duration-300 transform group-hover:translate-x-2" />
-                </span>
+              <li>
+                <Link href="/gallery" className="inline-flex group">
+                  <span className="flex items-center transition-transform duration-300 transform group-hover:translate-x-2">
+                    See Gallery
+                    <ChevronRightIcon className="h-5 stroke-current ml-1 transition-transform duration-300 transform group-hover:translate-x-2" />
+                  </span>
+                </Link>
+              </li>
+            </ul>
+
+            <div className="flex items-center space-x-4 absolute bottom-8 right-16">
+              <Link href="https://facebook.com" target="_blank" className="text-black hover:text-blue-800">
+                <i className="fab fa-facebook-f fa-lg"></i>
               </Link>
-            </li>
-            
-          </ul>
+              <Link href="https://instagram.com" target="_blank" className="text-black hover:text-pink-700">
+                <i className="fab fa-instagram fa-lg"></i>
+              </Link>
+              <Link href="https://linkedin.com" target="_blank" className="text-black hover:text-blue-900">
+                <i className="fab fa-linkedin-in fa-lg"></i>
+              </Link>
+              <Link href="https://youtube.com" target="_blank" className="text-black hover:text-red-800">
+                <i className="fab fa-youtube fa-lg"></i>
+              </Link>
+            </div>
+          </div>
         </div>
+
 
         {/* Bar / X Icon */}
         <div className="inline-block fixed top-0 right-6 p-4 z-10">
