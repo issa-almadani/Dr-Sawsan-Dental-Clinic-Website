@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={lang} dir={dir}>
-      <body className="{`${inter.className} ${cairo.className}`}">
+      <body className="{`${inter.className} ${cairo.className}`} bg-bg_primary">
         <Navigation />
         {children}
       </body>
