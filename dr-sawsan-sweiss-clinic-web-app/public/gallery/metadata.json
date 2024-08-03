@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "botox",
+        "type": "jpeg",
+        "path": "/gallery/botox.jpeg",
+        "alt": "Dr. Sawsan Sweiss receiving her botox certification.",
+        "category": "awards"
+    },
+    {
+        "id": 2,
+        "name": "closeup",
+        "type": "jpeg",
+        "path": "/gallery/closeup.jpeg",
+        "alt": "Placeholder.",
+        "category": "art"
+    },
+    {
+        "id": 3,
+        "name": "botox",
+        "type": "jpeg",
+        "path": "/gallery/botox.jpeg",
+        "alt": "Dr. Sawsan Sweiss receiving her botox certification.",
+        "category": "awards"
+    },
+    {
+        "id": 4,
+        "name": "closeup",
+        "type": "jpeg",
+        "path": "/gallery/closeup.jpeg",
+        "alt": "Placeholder.",
+        "category": "art"
+    },
+    {
+        "id": 5,
+        "name": "botox",
+        "type": "jpeg",
+        "path": "/gallery/botox.jpeg",
+        "alt": "Dr. Sawsan Sweiss receiving her botox certification.",
+        "category": "awards"
+    },
+    {
+        "id": 6,
+        "name": "botox",
+        "type": "jpeg",
+        "path": "/gallery/botox.jpeg",
+        "alt": "Dr. Sawsan Sweiss receiving her botox certification.",
+        "category": "awards"
+    },
+    {
+        "id": 7,
+        "name": "botox",
+        "type": "jpeg",
+        "path": "/gallery/botox.jpeg",
+        "alt": "Dr. Sawsan Sweiss receiving her botox certification.",
+        "category": "awards"
+    },
+    {
+        "id": 8,
+        "name": "botox",
+        "type": "jpeg",
+        "path": "/gallery/botox.jpeg",
+        "alt": "Dr. Sawsan Sweiss receiving her botox certification.",
+        "category": "awards"
+    }
+]
