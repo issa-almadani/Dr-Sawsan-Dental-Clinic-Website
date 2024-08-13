@@ -16,7 +16,7 @@ const Header = () => {
   return (
       <>   
       {/* Primary Expanding Navigation Bar */}
-      <div className={`overflow-x-hidden z-10 overflow-y-hidden w-full bg-bg_primary transition-all duration-500 ease-in-out backdrop-blur-lg sticky top-0 ${isExpanded ? 'opacity-100 h-[100dvh]' : 'opacity-90 h-[72px]'}`}>
+      <div className={`overflow-x-hidden z-50 overflow-y-hidden w-full bg-bg_primary transition-all duration-500 ease-in-out backdrop-blur-lg sticky top-0 ${isExpanded ? 'opacity-100 h-[100dvh]' : 'opacity-90 h-[72px]'}`}>
         
         {/* Logo + Left Expanding Content */}
         <div className="container mx-auto px-4 h-full flex items-center justify-between opacity-100">
@@ -51,7 +51,7 @@ const Header = () => {
               </li>
 
               <li>
-                <Link href="/gallery" className="inline-flex group">
+                <Link href="/blog" className="inline-flex group" onClick={toggleHeader}>
                   <span className="flex items-center transition-transform duration-300 transform group-hover:translate-x-2">
                     See all Articles
                     <ChevronRightIcon className="h-5 stroke-current ml-1 transition-transform duration-300 transform group-hover:translate-x-2" />
