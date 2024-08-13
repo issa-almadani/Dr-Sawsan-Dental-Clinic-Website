@@ -4,8 +4,8 @@ import React from "react";
 import { useSearchParams } from 'next/navigation'
 
 const Blog = () => {
-  const searchParams = useSearchParams()
-  const article_i = searchParams.get('article')
+  // const searchParams = useSearchParams()
+  // const article_i = searchParams.get('article')
 
   // const article = loadArticle(article_i)
 
