@@ -59,6 +59,7 @@ const Gallery = () => {
       <div className="flex flex-wrap w-full h-full px-[15dvw] mb-[20dvh]">
         {data.map(img => (
           <div 
+            key={img.id} 
             className={`inline-block w-auto h-[22dvh] mr-10 mt-20 relative z-10`}
             onMouseEnter={() => handleMouseEnter(img.id)}
             onMouseLeave={handleMouseLeave}
